@@ -4,7 +4,7 @@
 This project presents a comprehensive deep-learning framework designed to analyze social interactions among mice through video footage. Utilizing advanced machine learning techniques, including ResNet101 for both classification and regression tasks, our framework aims to identify and classify various social behaviors and anatomical key points to elucidate the complex dynamics of rodent interactions.
 
 ## Objective
-The primary goal is to explore the relationship between the proximity of mice and their corresponding behaviors within a given frame, leveraging this understanding to enhance the accuracy of behavior classification and anatomical key point estimation in social interaction contexts.
+The primary goal is to explore the relationship between the proximity of mice and their corresponding behaviors within a given frame, leveraging this understanding to enhance the accuracy of behavior classification and anatomical key point estimation in social interaction contexts. CalMS21 Dataset can be downloaded from the following link: https://data.caltech.edu/records/s0vdx-0k302
 
 ## Methodology
 Our approach involves a dual-model framework that integrates:
@@ -12,7 +12,7 @@ Our approach involves a dual-model framework that integrates:
 - **Anatomical Key Point Estimation**: Regression analysis to identify critical anatomical points, facilitating a deeper understanding of mice interactions through the proposed Mouse Action Recognition System (MARS).
 
 ## Model Evaluation
-The framework's performance was rigorously evaluated using classification accuracy scores and mean squared error metrics, demonstrating its ability to accurately classify behaviors and estimate anatomical key points with moderate complexity.
+The framework's performance was rigorously evaluated using classification accuracy scores and mean squared error metrics, demonstrating its ability to accurately classify behaviors and estimate anatomical key points with moderate complexity. Model files can be found in the following Google Drive Link: https://drive.google.com/drive/folders/1R7o2tHTcQ9MgBNJHgGKCaz7r1aDvj7BS?usp=drive_link
 
 ## Results
 Our findings reveal a significant correlation between mice proximity and their behaviors, validating the framework's capability to offer insights into social interactions. The classification model achieved optimal outcomes with moderate complexities, while the regression model presented challenges related to higher loss, attributable to its inherent nature.
